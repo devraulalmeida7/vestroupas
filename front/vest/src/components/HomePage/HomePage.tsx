@@ -32,7 +32,7 @@ export default function HomePage() {
                 </div>
                 
                 <nav className={styles.menuAux}>
-                    {/* <img className={styles.logo} src={search} alt="Barra de pesquisa" /> */}
+                     <img className='' src={search} alt="Barra de pesquisa" /> 
                 </nav>
 
             </header>
