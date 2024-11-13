@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 1.5rem;
+}
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+.menuItem{
+    text-decoration: none;
+    color: #000;
+}
+.menuAux {
+    display: flex;
+    padding: 0.2rem;
+}
+
+
+/*Main*/
+
+main {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.newCollection {
+    display: flex;
+}

@@ -1,0 +1,14 @@
+:root {
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-family: 'Abel', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
