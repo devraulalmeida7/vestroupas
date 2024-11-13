@@ -1,3 +1,6 @@
+:root{
+    color: #000;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -8,14 +11,29 @@ header {
 .menu {
     display: flex;
     gap: 1rem;
+    flex: 1;
+}
+.logo{
+    /* max-width: 100%; */
+}
+.logoContent {
+    flex: 1;
+    text-align: center;
 }
 .menuItem{
     text-decoration: none;
     color: #000;
+    transition: 0.5s;
+    font-size: 1.2rem;
 }
+.menuItem:hover {
+    color: #666666
+}
+
 .menuAux {
     display: flex;
     padding: 0.2rem;
+    flex: 1;
 }
 
 
@@ -28,4 +46,60 @@ main {
 }
 .newCollection {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #000;
+    padding: 1rem 0;
+    width: 100%;
+}
+.newCollectionContent{
+    display: flex;
+    /* gap: 2.5rem; */
+    justify-content: space-between;
+    width: 100%;
+}
+.headingMain{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+.headingText {
+    margin: 0;
+    font-size: 1.2rem;
+}
+.produto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+.produto p {
+    margin: 0;
+}
+.title {
+    font-size: 1.4rem;
+}
+.produtoImage {
+    width: 50%;
+}
+
+/* Category */
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    padding: 1rem 0;
+}
+.categoryTitle{
+    transition: 0.5s;
+    cursor:pointer;
+}
+.categoryTitle:hover{
+    color: #303030;
 }
